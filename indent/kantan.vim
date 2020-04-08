@@ -11,3 +11,4 @@ let b:did_indent = 1
 
 setlocal cindent
 setlocal cinoptions=L0,(s,Ws,J1,j1,m1
+setlocal formatoptions-=t formatoptions+=croqnl
