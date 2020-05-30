@@ -10,7 +10,7 @@ endif
 " Keywords and Storage Classes
 syntax keyword kantanStorageClass let
 syntax keyword kantanKeyword return def
-syntax keyword kantanKeyword if else import extern while struct null
+syntax keyword kantanKeyword if else import extern while for struct null
 syntax keyword kantanKeyword new delete sizeof as
 syntax keyword kantanKeyword type nextgroup=kantanIdent skipwhite skipempty
 
