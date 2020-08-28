@@ -11,7 +11,7 @@ endif
 syntax keyword kantanStorageClass let
 syntax keyword kantanKeyword return def delegate defer
 syntax keyword kantanKeyword if else import extern while for struct union enum null
-syntax keyword kantanKeyword new delete sizeof as
+syntax keyword kantanKeyword new delete sizeof as break continue
 syntax keyword kantanKeyword type nextgroup=kantanIdent skipwhite skipempty
 
 syntax keyword kantanType i8 i16 i32 i64 isize u8 u16 u32 u64 usize f32 f64 string bool void
