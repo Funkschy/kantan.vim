@@ -14,7 +14,7 @@ syntax keyword kantanKeyword if else import extern while for struct null
 syntax keyword kantanKeyword new delete sizeof as
 syntax keyword kantanKeyword type nextgroup=kantanIdent skipwhite skipempty
 
-syntax keyword kantanType char i32 f32 string bool void
+syntax keyword kantanType i8 i16 i32 i64 isize u8 u16 u32 u64 usize f32 f64 string bool void
 
 " Booleans and nil
 syntax keyword kantanBoolean true false null
