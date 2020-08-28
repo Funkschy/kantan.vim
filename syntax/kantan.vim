@@ -9,8 +9,8 @@ endif
 
 " Keywords and Storage Classes
 syntax keyword kantanStorageClass let
-syntax keyword kantanKeyword return def delegate
-syntax keyword kantanKeyword if else import extern while for struct null
+syntax keyword kantanKeyword return def delegate defer
+syntax keyword kantanKeyword if else import extern while for struct union enum null
 syntax keyword kantanKeyword new delete sizeof as
 syntax keyword kantanKeyword type nextgroup=kantanIdent skipwhite skipempty
 
