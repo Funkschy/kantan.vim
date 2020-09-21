@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language: Kantan
 " Maintainer: Felix Schoeller
-" Latest Revision: 17.08.2019
+" Latest Revision: 04.09.2020
 
 if exists("b:current_syntax")
 	finish
