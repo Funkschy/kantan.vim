@@ -15,6 +15,7 @@ syntax keyword kantanKeyword new delete sizeof as break continue
 syntax keyword kantanKeyword type nextgroup=kantanIdent skipwhite skipempty
 
 syntax keyword kantanType i8 i16 i32 i64 isize u8 u16 u32 u64 usize f32 f64 string bool void
+syntax keyword kantanTodo TODO FIXME contained
 
 " Booleans and nil
 syntax keyword kantanBoolean true false null undefined
@@ -35,7 +36,7 @@ syntax match kantanOperator "\v\<\="
 syntax match kantanOperator "\v\>\="
 
 " Comments
-syntax match kantanComment "\v\/\/.*$"
+syntax match kantanComment "\v\/\/.*$" contains=kantanTodo
 
 " Numbers
 syntax match kantanInt   display "\<[0-9][0-9_]*"
