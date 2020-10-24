@@ -39,7 +39,8 @@ syntax match kantanOperator "\v\>\="
 syntax match kantanComment "\v\/\/.*$" contains=kantanTodo
 
 " Numbers
-syntax match kantanInt   display "\<[0-9][0-9_]*"
+syntax match kantanDecInt   display "\<[0-9][0-9_]*"
+syntax match kantanHexInt   display "\<0[xX][0-9a-fA-F][0-9_a-fA-F]*"
 syntax match kantanFloat display "\<[0-9][0-9_]*\%(\.[0-9][0-9_]*\)"
 
 " Strings
@@ -51,7 +52,8 @@ highlight link kantanKeyword Keyword
 highlight link kantanBoolean Boolean
 highlight link kantanOperator Operator
 highlight link kantanComment Comment
-highlight link kantanInt Number
+highlight link kantanDecInt Number
+highlight link kantanHexInt Number
 highlight link kantanFloat Float
 highlight link kantanDoubleString String
 highlight link kantanSingleString String
